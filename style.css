@@ -1,0 +1,15 @@
+h1 {
+font-size: 12px;
+}
+section {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+a {padding: 10px;}
+section .socialmedia  {
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    border: 1px solid red;
+}
