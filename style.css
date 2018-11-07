@@ -8,10 +8,12 @@ flex-direction: column;
 align-items: flex-end;
 }
 section {
-width: 30%;
+width: 40%;
 display: flex;
 align-items: center;
 justify-content: space-between;
+text-decoration: none;
+font-family: sans-serif;
 }
 
 .socialmedia {
@@ -19,21 +21,19 @@ width: 30px;
 }
 
 header {
-height: 40vh;
+height: 28vh;
 margin: 40px 30px 50px 30px;
 padding: 30px 20px;
 background-image: url("https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg");
 background-repeat: no-repeat;
 background-size: cover;}
 
-header div {
+header {
 position: relative;
 }
 
 .arrows {
 position: absolute;
-top: 0px;
-left: 0px;
 width: 48px;
 }
 
@@ -44,12 +44,8 @@ left: -32px;
 
 #right-arrow {
 top:185px;
-left:1075px;
+right: -20px;
 }
-
-
-
-
 
 h1 {
 text-align: center;
@@ -57,3 +53,37 @@ font-family: sans-serif;
 color: grey;
 font-size: 23px;
 }
+
+.gallery {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;}
+
+.gallery img {
+    width: 100%;
+        }
+    
+
+.view-more {
+    display: flex;
+    justify-content: center;
+
+}
+.view-more {
+display: flex;
+justify-content: center;
+}
+.button {
+font-family: sans-serif;
+background-image: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+padding: 5px 55px;
+background-color: #ccc;
+background-blend-mode: multiply;
+color: white;
+text-decoration: none;
+
+}
+.button:hover {
+background-color: #ddd;
+}
+
