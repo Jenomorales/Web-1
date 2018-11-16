@@ -1,0 +1,195 @@
+body {
+    background-image: url(assets/textures/fabric_plaid.png)
+    }
+    nav {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    .right {
+    flex-direction: column;
+    align-items: flex-end;
+    }
+    .about {
+        display: flex;
+        width: 35%;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration-line: none;
+        font-family: sans-serif;
+        color: black;
+        }
+    
+    .socialmedia {
+    width: 30px;
+    color: black;
+    }
+    
+    .imageone {
+        height: 28vh;
+        margin: 40px 450px 50px 30px;
+        padding: 60px 20px;
+        border: solid 7px white;
+        background-image: url("https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;}
+        
+        .bottomthree {
+        display: flex;
+        justify-content: space-between;
+        border: solid 1px red;
+        width: 60%;
+        margin-left: 36px;
+        margin-top: -3%;
+        }
+        
+        .imagetwo {
+        height: 17vh;
+        width: 30%;
+        background-image: url("https://www.vactualpapers.com/web/wallpapers/material-design-hd-wallpaper-no-0728/thumbnail/lg.png");
+        background-repeat: no-repeat;
+        background-size: cover;}
+        
+        .imagethree {
+        height: 17vh;
+        width: 30%;
+        background-image: url("https://www.vactualpapers.com/web/wallpapers/material-design-hd-wallpaper-no-0728/thumbnail/lg.png");
+        background-repeat: no-repeat;
+        background-size: cover;}
+        
+        .imagefour {
+        height: 17vh;
+        width: 30%;
+        background-image: url("https://www.vactualpapers.com/web/wallpapers/material-design-hd-wallpaper-no-0728/thumbnail/lg.png");
+        background-repeat: no-repeat;
+        background-size: cover;} 
+
+        
+    
+    .view-more {
+        display: flex;
+        justify-content: center;
+    
+    }
+    .view-more {
+    display: flex;
+    justify-content: center;
+    }
+    .button {
+    font-family: sans-serif;
+    background-image: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
+    padding: 5px 55px;
+    background-color: #ccc;
+    background-blend-mode: multiply;
+    color: white;
+    text-decoration: none;
+    
+    }
+    .button:hover {
+    background-color: #ddd;
+    }
+    
+    .bird {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
+    }
+    
+    .bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(83, 83, 83);
+    color: white;
+    }
+    
+    footer {
+    background-image: url(assets/textures/az_subtle.png);
+    background-color: rgb(157, 161, 148);
+    background-blend-mode: multiply;
+    padding-bottom: 50px;
+    
+    }
+    
+    .aboutbottom {
+    padding: 2px;
+    font-size: 12px;}
+    
+    .aboutfooter {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    }
+    .onebottom {
+    padding-left: 6px;
+    padding-top: -10px;
+    }
+    
+    .onebutton p{
+    color: white;
+    }
+    
+    .search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6%;
+    padding-left: 3px;
+    padding-right:160px;
+    padding-top:0px;
+    padding-bottom:0px;
+    background-color: white;
+    color: black;
+    }
+    
+    .mag {
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+    }
+    
+    .firstcolumn {
+    margin-right: 7px;
+    margin-left: 15px;
+    width: 30%;
+    float: left;
+    
+    }
+    
+    .visual {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 30%;
+    font-family: sans-serif;
+    float: left;
+    margin-right: 15px;
+    }
+    .visual p {
+    color: white;
+    font-size: 12px;
+    }
+    .tinygallery {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content:;
+        flex-direction: column;
+        margin-left: 10%;
+        }
+    .tinydoggroup {
+        display: flex;
+        flex-direction: column;
+    }
+    .tinydog{
+        width: 70px;
+        height: 50px;
+        margin: 2px;
+        align-self:center}
+    
+    
+    
