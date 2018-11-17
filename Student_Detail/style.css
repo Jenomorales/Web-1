@@ -24,65 +24,149 @@ body {
     width: 30px;
     color: black;
     }
+
+    header {
+    }
+
+    .firsttwo {
+    display: flex;
+    }
     
     .imageone {
-        height: 28vh;
-        margin: 40px 450px 50px 30px;
-        padding: 60px 20px;
-        border: solid 7px white;
+        height: 52vh;
+        margin: 40px 20px 70px 30px;
+        padding: 60px 435px;
+        border: solid 9px white;
         background-image: url("https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg");
         background-repeat: no-repeat;
         background-size: cover;}
+    
+    .sophiepage {
+        display: flex;
+        height: 30vh;
+        width: 36%;
+        margin-top: 3%;
+        background-color: white;
+    }
         
+    #sophieface {
+        margin-left: 5%;
+        width: 200px;
+        height: 190px;
+        margin-top: 2%;
+        margin-right: 2%;
+    }
+    #facebook {
+        width: 40px;
+        margin-top: 2%;
+    }
+    #twitter {
+        width: 40px;
+        margin-top: 2%;
+    }
+    .bio {
+       line-height: 70%;
+       text-align: right;
+       margin-left: 8%;
+       color: grey;
+       margin-top:3%;
+       
+    }
+
+    .bio h3 {
+       font-size: 20px;
+       font-family: sans-serif;
+    }
+
+    .bio h1 {
+        font-size: 25px;
+        font-family: sans-serif;
+     }
+
+     .herlife {
+     margin-top: -22.5%;
+     margin-left: 2%;
+     height: 66vh;
+     width: 35.5%;
+     background-color: white;}     
+
+     .actualbio {
+    font-size: 24px; 
+    color: grey;
+    margin: 3%;
+    font-family: sans-serif;
+     }
+
+     .actualbio h1 {
+    font-size: 26px;
+     }
+
         .bottomthree {
         display: flex;
         justify-content: space-between;
-        border: solid 1px red;
-        width: 60%;
+        width: 58%;
         margin-left: 36px;
         margin-top: -3%;
         }
         
         .imagetwo {
-        height: 17vh;
+        height: 22vh;
         width: 30%;
+        border: solid 9px white;
         background-image: url("https://www.vactualpapers.com/web/wallpapers/material-design-hd-wallpaper-no-0728/thumbnail/lg.png");
         background-repeat: no-repeat;
         background-size: cover;}
         
         .imagethree {
-        height: 17vh;
+        height: 22vh;
         width: 30%;
+        border: solid 9px white;
         background-image: url("https://www.vactualpapers.com/web/wallpapers/material-design-hd-wallpaper-no-0728/thumbnail/lg.png");
         background-repeat: no-repeat;
         background-size: cover;}
         
         .imagefour {
-        height: 17vh;
+        height: 22vh;
         width: 30%;
+        border: solid 9px white;
         background-image: url("https://www.vactualpapers.com/web/wallpapers/material-design-hd-wallpaper-no-0728/thumbnail/lg.png");
         background-repeat: no-repeat;
         background-size: cover;} 
 
-        
-    
-    .view-more {
-        display: flex;
-        justify-content: center;
-    
-    }
-    .view-more {
+        .rightside {
+        width: 40%;
+        height: 40vh;
+        border: solid 1px red;
+        }
+
+    .bottomlife {
     display: flex;
-    justify-content: center;
     }
-    .button {
+
+    .actualgallery {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        margin-left: 2.2%;
+        margin-right: 2.2%;
+        margin-bottom: 2%;}
+    
+    .artwork {
+        width: 300px;
+        height: 200px;
+        margin: 1% 1%;
+        align-self:center;}
+    
+
+    .gallery h1 {
+    margin-top: 40px;
+    margin-bottom: -0.5%;
+    margin-left: 2.5%;
+    font-size: 20px;
     font-family: sans-serif;
-    background-image: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
-    padding: 5px 55px;
-    background-color: #ccc;
-    background-blend-mode: multiply;
-    color: white;
-    text-decoration: none;
+    color: grey;
+    }
+
     
     }
     .button:hover {
@@ -181,12 +265,17 @@ body {
         flex-direction: column;
         margin-left: 10%;
         }
+    .tinygallery h3 {
+    font-family: sans-serif;
+    margin-left: 7%;
+    }
     .tinydoggroup {
         display: flex;
         flex-direction: column;
+        margin-left: 7%;
     }
     .tinydog{
-        width: 70px;
+        width: 90px;
         height: 50px;
         margin: 2px;
         align-self:center}
