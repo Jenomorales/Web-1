@@ -1,24 +1,59 @@
+@font-face {
+    font-family: 'museo';
+    src: url('assets/fonts/museo/museo-300-webfont.woff') format('woff');
+}
+* { 
+font-family: 'museo';
+}
 body {
 background-image: url(assets/textures/fabric_plaid.png)
 }
 nav {
 display: flex;
 justify-content: space-between;
+margin-left: 2.5%;
 }
 
 .right {
 flex-direction: column;
 align-items: flex-end;
+margin-right: 2.2%;
+width: 12%;
+height: 90px;
+}
+
+.tficons {
+display: flex; 
+justify-content: flex-end;
+height: 30px;
+}
+
+.tficons img {
+margin-left: 10px;}
+
+.loginregister {
+display: flex;
+justify-content: space-between;
+margin-top: 14px;
+color: rgb(168, 168, 168);
+}
+
+.loginregister a {
+text-decoration: none;
+color:rgb(170, 170, 170);
 }
 .about {
-    display: flex;
-    width: 35%;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration-line: none;
-    font-family: sans-serif;
-    color: black;
-    }
+display: flex;
+width: 35%;
+align-items: center;
+justify-content: space-between;
+}
+
+.about a {
+text-decoration: none;
+color: gray;
+}
+
 
 .socialmedia {
 width: 30px;
@@ -26,7 +61,7 @@ color: black;
 }
 
 header {
-height: 28vh;
+height: 65vh;
 margin: 40px 30px 50px 30px;
 padding: 30px 20px;
 border: solid 7px white;
@@ -45,18 +80,17 @@ width: 48px;
 }
 
 #left-arrow {
-top:100px;
-left: -13px;
+top:250px;
+left: -20px;
 }
 
 #right-arrow {
-top:100px;
-right: -13px;
+top:250px;
+right: -20px;
 }
 
 h1 {
 text-align: center;
-font-family: sans-serif;
 color: grey;
 font-size: 23px;
 }
@@ -65,30 +99,27 @@ font-size: 23px;
 	display: flex;
 	flex-flow: row wrap;
     justify-content: space-between;
-    margin-left: 2.5%;
-    margin-right: 2.5%}
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2.2%;
+    margin-bottom: 1.5%;}
 
 .gallery img {
-    width: 300px;
+    width: 330px;
     height: 200px;
-    margin: 1% -2%;
+    margin: 12px 7px;
     align-self:center;}
     
 
 .view-more {
-    display: flex;
-    justify-content: center;
-
-}
-.view-more {
 display: flex;
 justify-content: center;
+margin-bottom: 3%;
 }
 .button {
-font-family: sans-serif;
 background-image: url('https://github.com/tyreil/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true');
-padding: 5px 55px;
-background-color: #ccc;
+padding: 10px 70px;
+background-color: rgb(138, 138, 138);
 background-blend-mode: multiply;
 color: white;
 text-decoration: none;
@@ -115,11 +146,11 @@ color: white;
 
 footer {
 background-image: url(assets/textures/az_subtle.png);
-background-color: rgb(157, 161, 148);
+background-color: rgb(174, 177, 167);
 background-blend-mode: multiply;
-padding-bottom: 50px;
+padding-bottom: 50px;}
 
-}
+
 
 .aboutbottom {
 padding: 2px;
@@ -128,43 +159,47 @@ font-size: 12px;}
 .aboutfooter {
 display: flex;
 align-items: center;
-width: 30%;
-justify-content: flex-start;
+width: 80%;
+justify-content: space-between;
 padding-left: 10px;
 padding-right: 10px;
 padding-top: 10px;
+}
+.aboutfooter a {
+font-size: 13px;
+text-decoration: none;
+color: rgb(66, 66, 66)
 }
 .onebottom {
 padding-left: 6px;
 padding-top: -10px;
 }
 
-.onebutton p{
+.onebottom p {
 color: white;
 }
 
 .search {
 display: flex;
-justify-content: space-between;
+justify-content: flex-start;
 align-items: center;
-width: 6%;
-padding-left: 3px;
-padding-right:160px;
-padding-top:0px;
-padding-bottom:0px;
+width: 80%;
+height: 30px;
 background-color: white;
 color: black;
 }
 
 .mag {
-width: 10px;
-height: 10px;
+width: 13px;
+height: 13px;
 margin-right: 6px;
+margin-left: 5px;
 }
 
 .firstcolumn {
+margin-top: 15px;
 margin-right: 7px;
-margin-left: 15px;
+margin-left: 2%;
 width: 30%;
 float: left;
 
@@ -174,14 +209,22 @@ float: left;
 display: flex;
 justify-content: start;
 flex-direction: column;
-width: 30%;
-font-family: sans-serif;
+width: 27%;
+height: 30vh;
 float: left;
-margin-right: 15px;
+margin-left: 45px;
+margin-top: 23px;
+margin-right: 4%;
 }
 .visual p {
 color: white;
-font-size: 12px;
+font-size: 15px;
+line-height: 25px;
+margin-top: -1%;
+}
+.visual h5 {
+margin-top: -1%;
+font-size: 16px;
 }
 .tinygallery {
 	display: flex;
@@ -189,13 +232,16 @@ font-size: 12px;
     justify-content:;
     flex-direction: column;
     margin-left: 10%;
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 3%;
     }
 .tinydoggroup {
     display: flex;
     flex-direction: column;
 }
 .tinydog{
-    width: 70px;
+    width: 100px;
     height: 50px;
     margin: 2px;
     align-self:center}

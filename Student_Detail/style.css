@@ -1,29 +1,63 @@
+@font-face {
+    font-family: 'museo';
+    src: url('assets/fonts/museo/museo-300-webfont.woff') format('woff');
+}
+* { 
+font-family: 'museo';}
 body {
     background-image: url(assets/textures/fabric_plaid.png)
     }
     nav {
-    display: flex;
-    justify-content: space-between;
-    }
-    
-    .right {
-    flex-direction: column;
-    align-items: flex-end;
-    }
-    .about {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2.5%;
+        }
+        
+        .right {
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 2.2%;
+        width: 12%;
+        height: 90px;
+        }
+        
+        .tficons {
+        display: flex; 
+        justify-content: flex-end;
+        height: 30px;
+        }
+        
+        .tficons img {
+        margin-left: 10px;}
+        
+        .loginregister {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 14px;
+        color: rgb(168, 168, 168);
+        }
+        
+        .loginregister a {
+        text-decoration: none;
+        color:rgb(170, 170, 170);
+        }
+        .about {
         display: flex;
         width: 35%;
         align-items: center;
         justify-content: space-between;
-        text-decoration-line: none;
-        font-family: sans-serif;
+        }
+        
+        .about a {
+        text-decoration: none;
+        color: gray;
+        }
+        
+        
+        .socialmedia {
+        width: 30px;
         color: black;
         }
-    
-    .socialmedia {
-    width: 30px;
-    color: black;
-    }
 
     header {
     }
@@ -39,22 +73,42 @@ body {
         border: solid 9px white;
         background-image: url("https://kids.nationalgeographic.com/content/dam/kids/photos/articles/Nature/H-P/Habitats/Ocean/wave.ngsversion.1500050062134.adapt.1900.1.jpg");
         background-repeat: no-repeat;
-        background-size: cover;}
+        background-size: cover;
+        position: relative;}
+
+.arrows {
+position: absolute;
+width: 48px;
+}
+
+#left-arrow {
+top:250px;
+left: -20px;
+}
+
+#right-arrow {
+top:250px;
+right: -20px;
+}
+
+
     
     .sophiepage {
         display: flex;
         height: 30vh;
         width: 36%;
         margin-top: 3%;
+        margin-right: 2%;
         background-color: white;
+        border: 1px solid red;
     }
         
     #sophieface {
         margin-left: 5%;
-        width: 200px;
-        height: 190px;
+        width: 170px;
+        height: 200px;
         margin-top: 2%;
-        margin-right: 2%;
+        border: 1px solid red;
     }
     #facebook {
         width: 40px;
@@ -168,117 +222,124 @@ body {
     }
 
     
-    }
     .button:hover {
-    background-color: #ddd;
-    }
-    
-    .bird {
-    margin: 10px;
-    height: 30px;
-    width: 30px;
-    }
-    
-    .bar {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-    padding: 10px;
-    background-color: rgb(83, 83, 83);
-    color: white;
-    }
-    
-    footer {
-    background-image: url(assets/textures/az_subtle.png);
-    background-color: rgb(157, 161, 148);
-    background-blend-mode: multiply;
-    padding-bottom: 50px;
-    
-    }
-    
-    .aboutbottom {
-    padding: 2px;
-    font-size: 12px;}
-    
-    .aboutfooter {
-    display: flex;
-    align-items: center;
-    width: 30%;
-    justify-content: flex-start;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    }
-    .onebottom {
-    padding-left: 6px;
-    padding-top: -10px;
-    }
-    
-    .onebutton p{
-    color: white;
-    }
-    
-    .search {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 6%;
-    padding-left: 3px;
-    padding-right:160px;
-    padding-top:0px;
-    padding-bottom:0px;
-    background-color: white;
-    color: black;
-    }
-    
-    .mag {
-    width: 10px;
-    height: 10px;
-    margin-right: 6px;
-    }
-    
-    .firstcolumn {
-    margin-right: 7px;
-    margin-left: 15px;
-    width: 30%;
-    float: left;
-    
-    }
-    
-    .visual {
-    display: flex;
-    justify-content: start;
-    flex-direction: column;
-    width: 30%;
-    font-family: sans-serif;
-    float: left;
-    margin-right: 15px;
-    }
-    .visual p {
-    color: white;
-    font-size: 12px;
-    }
-    .tinygallery {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content:;
-        flex-direction: column;
-        margin-left: 10%;
+        background-color: #ddd;
         }
-    .tinygallery h3 {
-    font-family: sans-serif;
-    margin-left: 7%;
-    }
-    .tinydoggroup {
+        
+        .bird {
+        margin: 10px;
+        height: 30px;
+        width: 30px;
+        }
+        
+        .bar {
         display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        padding: 10px;
+        background-color: rgb(83, 83, 83);
+        color: white;
+        }
+        
+        footer {
+        background-image: url(assets/textures/az_subtle.png);
+        background-color: rgb(174, 177, 167);
+        background-blend-mode: multiply;
+        padding-bottom: 50px;}
+        
+        
+        
+        .aboutbottom {
+        padding: 2px;
+        font-size: 12px;}
+        
+        .aboutfooter {
+        display: flex;
+        align-items: center;
+        width: 80%;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        }
+        .aboutfooter a {
+        font-size: 13px;
+        text-decoration: none;
+        color: rgb(66, 66, 66)
+        }
+        .onebottom {
+        padding-left: 6px;
+        padding-top: -10px;
+        }
+        
+        .onebottom p {
+        color: white;
+        }
+        
+        .search {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 80%;
+        height: 30px;
+        background-color: white;
+        color: black;
+        }
+        
+        .mag {
+        width: 13px;
+        height: 13px;
+        margin-right: 6px;
+        margin-left: 5px;
+        }
+        
+        .firstcolumn {
+        margin-top: 15px;
+        margin-right: 7px;
+        margin-left: 2%;
+        width: 30%;
+        float: left;
+        
+        }
+        
+        .visual {
+        display: flex;
+        justify-content: start;
         flex-direction: column;
-        margin-left: 7%;
-    }
-    .tinydog{
-        width: 90px;
-        height: 50px;
-        margin: 2px;
-        align-self:center}
-    
-    
+        width: 27%;
+        height: 30vh;
+        float: left;
+        margin-left: 45px;
+        margin-top: 23px;
+        margin-right: 4%;
+        }
+        .visual p {
+        color: white;
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: -1%;
+        }
+        .visual h5 {
+        margin-top: -1%;
+        font-size: 16px;
+        }
+        .tinygallery {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content:;
+            flex-direction: column;
+            margin-left: 10%;
+            width: 30%;
+            padding-top: 10px;
+            padding-left: 3%;
+            }
+        .tinydoggroup {
+            display: flex;
+            flex-direction: column;
+        }
+        .tinydog{
+            width: 100px;
+            height: 50px;
+            margin: 2px;
+            align-self:center}
     
