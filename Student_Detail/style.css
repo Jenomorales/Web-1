@@ -100,7 +100,6 @@ right: -20px;
         margin-top: 3%;
         margin-right: 2%;
         background-color: white;
-        border: 1px solid red;
     }
         
     #sophieface {
@@ -108,7 +107,6 @@ right: -20px;
         width: 170px;
         height: 200px;
         margin-top: 2%;
-        border: 1px solid red;
     }
     #facebook {
         width: 40px;
@@ -190,7 +188,6 @@ right: -20px;
         .rightside {
         width: 40%;
         height: 40vh;
-        border: solid 1px red;
         }
 
     .bottomlife {
